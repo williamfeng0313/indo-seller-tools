@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-black">
@@ -13,9 +13,13 @@ export default function Home() {
           Boost your TikTok Shop & Shopee sales with free AI-powered tools.
         </p>
 
-        <button className="mt-10 bg-black text-white px-8 py-4 rounded-xl text-lg hover:opacity-80 transition">
+        
+        <Link
+          href="/tools/tiktok-profit-calculator"
+          className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
+        >
           Try Free Tools
-        </button>
+        </Link>
       </section>
 
       {/* Tools Section */}
