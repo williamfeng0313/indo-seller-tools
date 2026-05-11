@@ -48,9 +48,12 @@ export default function Home() {
             Generate SEO-friendly product titles with AI.
           </p>
 
-          <button className="mt-6 text-black font-medium">
+          <Link 
+            href="/tools/product-title-generator"
+            className="inline-block mt-6 text-black font-medium"
+          >
             Open Tool →
-          </button>
+          </Link>
         </div>
 
         <div className="border rounded-2xl p-6 hover:shadow-lg transition">
