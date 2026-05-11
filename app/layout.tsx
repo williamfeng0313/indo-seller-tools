@@ -15,8 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Indo Seller Tools - AI Tools for Indonesian Ecommerce Sellers",
   description: "Free AI tools for Shopee, TikTok Shop, Tokopedia and Lazada sellers in Indonesia.",
-};
 
+  verification: { google: "DJu4CM9sGEbV_G6jnBH45KncnUay2qK9dHZ2cT8UHWs", 
+  }, 
+};
 export default function RootLayout({
   children,
 }: Readonly<{
