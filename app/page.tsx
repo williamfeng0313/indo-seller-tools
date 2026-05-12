@@ -20,6 +20,17 @@ export default function Home() {
         >
           Try Free Tools
         </Link>
+        
+        <div className="mt-8">
+          <Link
+            href="/categories/ecommerce-tools"
+            className="text-lg underline"
+          >
+            Browse All Ecommerce Tools →
+          </Link>
+        </div>
+
+
       </section>
 
       {/* Tools Section */}
