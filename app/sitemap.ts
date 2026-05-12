@@ -13,6 +13,12 @@ export default function sitemap() {
       url: "https://indo-seller-tools.vercel.app/tools/product-title-generator",
       lastModified: new Date(),
     },
+    
+    {
+      url: "https://indo-seller-tools.vercel.app/tools/whatsapp-reply-generator",
+      lastModified: new Date(),
+    },
+
   ];
 }
 

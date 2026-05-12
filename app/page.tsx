@@ -34,9 +34,11 @@ export default function Home() {
             Calculate your real TikTok Shop profit margin.
           </p>
 
-          <button className="mt-6 text-black font-medium">
-            Open Tool →
-          </button>
+          <Link href="/tools/tiktok-profit-calculator" 
+          className="inline-block mt-6 text-black font-medium" 
+          > 
+          Open Tool → 
+          </Link>
         </div>
 
         <div className="border rounded-2xl p-6 hover:shadow-lg transition">
