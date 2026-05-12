@@ -70,6 +70,23 @@ export default function Home() {
           </button>
         </div>
 
+        <div className="border rounded-2xl p-6 hover:shadow-lg transition">
+          <h2 className="text-2xl font-semibold">
+            Shopee Fee Calculator
+          </h2>
+
+          <p className="mt-4 text-gray-600">
+            Calculate Shopee commissions and seller profit instantly.
+          </p>
+
+          <Link 
+            href="/tools/product-title-generator"
+            className="inline-block mt-6 text-black font-medium"
+          >
+            Open Tool →
+          </Link>
+        </div>
+      
       </section>
 
       {/* SEO Content */}
