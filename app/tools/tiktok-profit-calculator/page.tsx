@@ -1,6 +1,7 @@
 
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function TikTokProfitCalculator() {
@@ -195,6 +196,46 @@ export default function TikTokProfitCalculator() {
         </div>
 
       </section>
+    
+{/* Related Tools */}
+<section className="max-w-4xl mx-auto mt-24">
+
+  <h2 className="text-3xl font-bold">
+    Related Ecommerce Tools
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-6 mt-10">
+
+    <Link
+      href="/tools/shopee-fee-calculator"
+      className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-2xl font-semibold">
+        Shopee Fee Calculator
+      </h3>
+
+      <p className="mt-4 text-gray-600">
+        Calculate Shopee seller fees and net profit.
+      </p>
+    </Link>
+
+    <Link
+      href="/tools/product-title-generator"
+      className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-2xl font-semibold">
+        AI Product Title Generator
+      </h3>
+
+      <p className="mt-4 text-gray-600">
+        Generate SEO-friendly product titles instantly.
+      </p>
+    </Link>
+
+  </div>
+
+</section>
+
 
     </main>
   );

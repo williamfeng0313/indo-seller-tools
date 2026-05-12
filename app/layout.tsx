@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -29,7 +30,39 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      
+<body className="min-h-full flex flex-col">
+
+  <header className="border-b">
+    <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <Link
+        href="/"
+        className="font-bold text-xl"
+      >
+        Indo Seller Tools
+      </Link>
+
+      <nav className="flex gap-6 text-sm">
+
+        <Link href="/">
+          Home
+        </Link>
+
+        <Link href="/categories/ecommerce-tools">
+          Tools
+        </Link>
+
+      </nav>
+
+    </div>
+  </header>
+
+  {children}
+
+</body>
+
+
     </html>
   );
 }
