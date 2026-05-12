@@ -65,9 +65,11 @@ export default function Home() {
             Reply to customers using AI-generated responses.
           </p>
 
-          <button className="mt-6 text-black font-medium">
+          <Link href="/tools/whatsapp-reply-generator"
+           className="inline-block mt-6 text-black font-medium"
+           >
             Open Tool →
-          </button>
+          </Link>
         </div>
 
         <div className="border rounded-2xl p-6 hover:shadow-lg transition">
