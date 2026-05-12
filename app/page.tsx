@@ -80,7 +80,7 @@ export default function Home() {
           </p>
 
           <Link 
-            href="/tools/product-title-generator"
+            href="/tools/shopee-fee-calculator"
             className="inline-block mt-6 text-black font-medium"
           >
             Open Tool →
