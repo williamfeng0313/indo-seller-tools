@@ -4,7 +4,7 @@ export default function Home() {
     <main className="min-h-screen bg-white text-black">
       
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-6 py-24 text-center">
+      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
         <h1 className="text-5xl font-bold leading-tight">
           Free AI Tools for Indonesian Sellers
         </h1>
