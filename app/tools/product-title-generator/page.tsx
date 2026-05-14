@@ -1,6 +1,7 @@
 
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function ProductTitleGenerator() {
@@ -21,7 +22,14 @@ export default function ProductTitleGenerator() {
 
   return (
     <main className="min-h-screen bg-white text-black px-6 py-16">
-
+      
+      <Link
+      href="/"
+      className="text-sm text-gray-500 hover:text-black"
+      >
+      ← Back to Home
+      </Link>
+      
       {/* Hero */}
       <section className="max-w-5xl mx-auto">
 
