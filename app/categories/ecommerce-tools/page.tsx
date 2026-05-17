@@ -50,7 +50,12 @@ export default function EcommerceToolsPage() {
           description="Calculate Shopee ROI and profitability instantly."
           href="/tools/shopee-roi-calculator"
         />
-
+        
+        <ToolCard
+           title="Shopee Affiliate Calculator"
+           description="Calculate Shopee affiliate commissions instantly."
+           href="/tools/shopee-affiliate-calculator"
+         />
 
       </section>
 

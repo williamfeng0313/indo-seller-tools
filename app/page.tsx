@@ -77,7 +77,15 @@ export default function Home() {
         href="/tools/shopee-roi-calculator"
       />
 
- 
+      
+       <ToolCard
+        title="Shopee Affiliate Calculator"
+        description="Calculate Shopee affiliate commissions instantly."
+        href="/tools/shopee-affiliate-calculator"
+      />
+
+
+
       </section>
 
       {/* SEO Content */}
