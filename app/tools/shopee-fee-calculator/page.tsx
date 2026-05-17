@@ -1,6 +1,6 @@
 
 "use client";
-import ToolHero from "../../components/ToolHero";
+import ToolHero from "@/components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -37,7 +37,7 @@ const margin =
       </Link>
 
       {/* Hero */}
-      
+
       <ToolHero
         title="Shopee Fee Calculator"
         description="Calculate Shopee seller fees and net profit instantly."

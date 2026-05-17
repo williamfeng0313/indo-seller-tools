@@ -1,6 +1,6 @@
 
 
-import ToolCard from "../../components/ToolCard";
+import ToolCard from "@/components/ToolCard";
 
 export default function EcommerceToolsPage() {
   return (

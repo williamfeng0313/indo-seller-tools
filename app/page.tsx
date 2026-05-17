@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar";
+import Navbar from "@/components/Navbar";
 
-import ToolCard from "./components/ToolCard";
+import ToolCard from "@/components/ToolCard";
 
 import Link from "next/link";
 export default function Home() {
@@ -36,6 +36,19 @@ export default function Home() {
             Browse All Ecommerce Tools →
           </Link>
         </div>
+    
+        
+        <div className="mt-8">
+          <Link
+            href="/categories/calculators"
+            className="text-lg underline"
+          >
+            Browse All Calculators →
+          </Link>
+        </div>
+
+
+
 
 
       </section>

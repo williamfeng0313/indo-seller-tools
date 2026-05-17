@@ -1,7 +1,7 @@
 
 "use client";
 
-import ToolHero from "../../components/ToolHero";
+import ToolHero from "@/components/ToolHero";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -13,13 +13,13 @@ const [shippingCost, setShippingCost] = useState(0);
 const [packagingCost, setPackagingCost] = useState(0);
 const [feePercent, setFeePercent] = useState(0);
 
-const shopeeFee = (price * feePercent) / 100;
+const affiliateCommission = (price * feePercent) / 100;
 
 const totalCost =
   productCost +
   shippingCost +
   packagingCost +
-  shopeeFee;
+  affiliateCommission;
 
 const profit = price - totalCost;
 
@@ -28,9 +28,6 @@ const roi =
     ? ((profit / totalCost) * 100).toFixed(1)
     : 0;
 
-
-const margin =
-  price > 0 ? ((profit / price) * 100).toFixed(1) : 0;
 
 
 
@@ -116,7 +113,7 @@ const margin =
 
   <div>
     <label className="block mb-2 font-medium">
-      Shopee Fee %
+      Affiliate Commission %
     </label>
 
     <input
@@ -167,14 +164,14 @@ const margin =
       <section className="max-w-4xl mx-auto mt-24">
 
         <h2 className="text-3xl font-bold">
-         How Shopee ROI Works
+         How Shopee Affiliate Fees Work
         </h2>
 
         <p className="mt-6 text-gray-700 leading-8">
         
-        Shopee sellers must calculate ROI carefully to understand whether advertising, 
-        shipping and operational costs are generating sustainable profit.
-        A high ROI means your Shopee store is scaling efficiently while maintaining healthy margins.
+        Shopee affiliate marketing is growing rapidly in Indonesia.
+        Sellers need to calculate affiliate commissions carefully
+        to maintain healthy profit margins and sustainable growth.
 
 
         </p>
@@ -192,21 +189,23 @@ const margin =
 
           <div>
             <h3 className="text-xl font-semibold">
-            How much does Shopee charge sellers?
+            How much commission do Shopee affiliates charge?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Shopee seller fees vary by category, but usually include transaction and commission fees.
+            Shopee affiliate commissions vary by product category,
+            but many sellers offer between 5% and 20%.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold">
-            How can sellers improve Shopee profit margins?
+            How can sellers stay profitable with affiliates?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Sellers can improve profit by reducing shipping costs, packaging expenses and platform fees.
+            Sellers should calculate commissions, shipping fees
+            and product costs carefully before setting affiliate payouts.
             </p>
           </div>
 

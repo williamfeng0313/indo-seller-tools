@@ -1,6 +1,6 @@
 
 "use client";
-import ToolHero from "../../components/ToolHero";
+import ToolHero from "@/components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
