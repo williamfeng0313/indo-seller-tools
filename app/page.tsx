@@ -83,6 +83,14 @@ export default function Home() {
         description="Calculate Shopee affiliate commissions instantly."
         href="/tools/shopee-affiliate-calculator"
       />
+      
+    
+       <ToolCard
+        title="Tokopedia Fee Calculator"
+        description="Calculate Tokopedia seller fees instantly."
+        href="/tools/tokopedia-fee-calculator"
+      />
+
 
 
 
