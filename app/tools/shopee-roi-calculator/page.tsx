@@ -1,6 +1,8 @@
 
 "use client";
 
+import ToolHero from "../../components/ToolHero";
+
 import Link from "next/link";
 import { useState } from "react";
 
@@ -43,17 +45,13 @@ const margin =
       </Link>
 
       {/* Hero */}
-      <section className="max-w-4xl mx-auto">
-        
-        <h1 className="text-5xl font-bold">
-          Shopee ROI Calculator
-        </h1>
+      
+      <ToolHero
+        title="Shopee ROI Calculator"
+        description="Calculate Shopee ROI and profitability instantly."
+      />
 
-        <p className="mt-6 text-xl text-gray-600">
-          Calculate Shopee ROI and profitability instantly.
-        </p>
 
-      </section>
 
       {/* Calculator */}
       <section className="max-w-4xl mx-auto mt-16 grid md:grid-cols-2 gap-10">

@@ -1,6 +1,6 @@
 
 "use client";
-
+import ToolHero from "../../components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -27,17 +27,10 @@ export default function WhatsAppReplyGenerator() {
      </Link>
 
       {/* Hero */}
-      <section className="max-w-4xl mx-auto">
-
-        <h1 className="text-5xl font-bold">
-          WhatsApp Reply Generator
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600">
-          Generate professional customer replies instantly using AI.
-        </p>
-
-      </section>
+      <ToolHero
+         title="WhatsApp Reply Generator"
+         description="Generate AI-powered WhatsApp customer replies instantly."
+      />
 
       {/* Generator */}
       <section className="max-w-4xl mx-auto mt-16 grid md:grid-cols-2 gap-10">

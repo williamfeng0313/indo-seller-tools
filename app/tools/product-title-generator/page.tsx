@@ -1,6 +1,6 @@
 
 "use client";
-
+import ToolHero from "../../components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -31,17 +31,12 @@ export default function ProductTitleGenerator() {
       </Link>
       
       {/* Hero */}
-      <section className="max-w-5xl mx-auto">
-
-        <h1 className="text-5xl font-bold leading-tight">
-          AI Product Title Generator
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600">
-          Generate high-converting Shopee & TikTok Shop titles instantly.
-        </p>
-
-      </section>
+      
+      <ToolHero
+        title="Shopee Product Title Generator"
+        description="Generate SEO-friendly Shopee product titles with AI."
+      />
+     
 
       {/* Generator */}
       <section className="max-w-5xl mx-auto mt-16 grid md:grid-cols-2 gap-10">

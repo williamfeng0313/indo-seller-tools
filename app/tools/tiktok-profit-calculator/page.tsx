@@ -1,6 +1,6 @@
 
 "use client";
-
+import ToolHero from "../../components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -30,18 +30,11 @@ export default function TikTokProfitCalculator() {
       </Link>
       
       {/* Hero */}
-      <section className="max-w-4xl mx-auto">
-        
-        <h1 className="text-5xl font-bold">
-          TikTok Shop Profit Calculator
-        </h1>
 
-        <p className="mt-6 text-xl text-gray-600">
-          Calculate your real TikTok Shop profit after ads,
-          shipping and affiliate fees.
-        </p>
-
-      </section>
+      <ToolHero
+         title="TikTok Profit Calculator"
+         description="Calculate your TikTok Shop profits instantly."
+      />
 
       {/* Calculator */}
       <section className="max-w-4xl mx-auto mt-16 grid md:grid-cols-2 gap-10">

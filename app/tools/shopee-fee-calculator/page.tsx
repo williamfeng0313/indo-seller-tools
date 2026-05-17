@@ -1,6 +1,6 @@
 
 "use client";
-
+import ToolHero from "../../components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -37,18 +37,11 @@ const margin =
       </Link>
 
       {/* Hero */}
-      <section className="max-w-4xl mx-auto">
-        
-        <h1 className="text-5xl font-bold">
-          Shopee Fee Calculator
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600">
-          Calculate Shopee seller fees,
-          commissions and net profit instantly.
-        </p>
-
-      </section>
+      
+      <ToolHero
+        title="Shopee Fee Calculator"
+        description="Calculate Shopee seller fees and net profit instantly."
+      />
 
       {/* Calculator */}
       <section className="max-w-4xl mx-auto mt-16 grid md:grid-cols-2 gap-10">
