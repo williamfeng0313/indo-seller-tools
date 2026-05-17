@@ -92,6 +92,13 @@ export default function Home() {
       />
 
 
+        <ToolCard
+          title="Lazada Fee Calculator"
+          description="Calculate Lazada seller fees instantly."
+          href="/tools/lazada-fee-calculator"
+        />
+
+
 
 
       </section>
