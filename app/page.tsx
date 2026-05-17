@@ -97,6 +97,13 @@ export default function Home() {
           description="Calculate Lazada seller fees instantly."
           href="/tools/lazada-fee-calculator"
         />
+    
+        <ToolCard
+          title="TikTok Affiliate Calculator"
+          description="Calculate TikTok affiliate commissions instantly."
+          href="/tools/tiktok-affiliate-calculator"
+        />
+
 
 
 

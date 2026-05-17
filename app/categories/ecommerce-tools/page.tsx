@@ -71,6 +71,13 @@ export default function EcommerceToolsPage() {
            href="/tools/lazada-fee-calculator"
         />
 
+         <ToolCard
+            title="TikTok Affiliate Calculator"
+            description="Calculate TikTok affiliate commissions instantly."
+            href="/tools/tiktok-affiliate-calculator"
+        />
+
+
 
 
       </section>
