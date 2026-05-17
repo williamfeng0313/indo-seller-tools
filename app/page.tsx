@@ -1,6 +1,13 @@
+import Navbar from "./components/Navbar";
+
+import ToolCard from "./components/ToolCard";
+
 import Link from "next/link";
 export default function Home() {
   return (
+   <>
+    <Navbar />
+
     <main className="min-h-screen bg-white text-black">
       
       {/* Hero Section */}
@@ -36,72 +43,33 @@ export default function Home() {
       {/* Tools Section */}
       <section className="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-6">
         
-        <div className="border rounded-2xl p-6 hover:shadow-lg transition">
-          <h2 className="text-2xl font-semibold">
-            TikTok Profit Calculator
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Calculate your real TikTok Shop profit margin.
-          </p>
-
-          <Link href="/tools/tiktok-profit-calculator" 
-          className="inline-block mt-6 text-black font-medium" 
-          > 
-          Open Tool → 
-          </Link>
-        </div>
-
-        <div className="border rounded-2xl p-6 hover:shadow-lg transition">
-          <h2 className="text-2xl font-semibold">
-            Shopee Title Generator
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Generate SEO-friendly product titles with AI.
-          </p>
-
-          <Link 
-            href="/tools/product-title-generator"
-            className="inline-block mt-6 text-black font-medium"
-          >
-            Open Tool →
-          </Link>
-        </div>
-
-        <div className="border rounded-2xl p-6 hover:shadow-lg transition">
-          <h2 className="text-2xl font-semibold">
-            WhatsApp Reply Generator
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Reply to customers using AI-generated responses.
-          </p>
-
-          <Link href="/tools/whatsapp-reply-generator"
-           className="inline-block mt-6 text-black font-medium"
-           >
-            Open Tool →
-          </Link>
-        </div>
-
-        <div className="border rounded-2xl p-6 hover:shadow-lg transition">
-          <h2 className="text-2xl font-semibold">
-            Shopee Fee Calculator
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Calculate Shopee commissions and seller profit instantly.
-          </p>
-
-          <Link 
-            href="/tools/shopee-fee-calculator"
-            className="inline-block mt-6 text-black font-medium"
-          >
-            Open Tool →
-          </Link>
-        </div>
       
+      <ToolCard
+        title="TikTok Profit Calculator"
+        description="Calculate your real TikTok Shop profit margin."
+        href="/tools/tiktok-profit-calculator"
+      />
+
+      <ToolCard
+        title="Shopee Title Generator"
+        description="Generate SEO-friendly product titles with AI."
+        href="/tools/product-title-generator"
+      />
+
+
+      <ToolCard
+        title="WhatsApp Reply Generator"
+        description="Reply to customers using AI-generated responses."
+        href="/tools/whatsapp-reply-generator"
+      />
+
+
+      <ToolCard
+        title="Shopee Fee Calculator"
+        description="Calculate Shopee commissions and seller profit instantly."
+        href="/tools/shopee-fee-calculator"
+      />
+ 
       </section>
 
       {/* SEO Content */}
@@ -152,5 +120,6 @@ export default function Home() {
       </section>
 
     </main>
+    </>
   );
 }

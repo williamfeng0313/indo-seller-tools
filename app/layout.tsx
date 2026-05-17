@@ -33,30 +33,7 @@ export default function RootLayout({
       
 <body className="min-h-full flex flex-col">
 
-  <header className="border-b">
-    <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-
-      <Link
-        href="/"
-        className="font-bold text-xl"
-      >
-        Indo Seller Tools
-      </Link>
-
-      <nav className="flex gap-6 text-sm">
-
-        <Link href="/">
-          Home
-        </Link>
-
-        <Link href="/categories/ecommerce-tools">
-          Tools
-        </Link>
-
-      </nav>
-
-    </div>
-  </header>
+  
 
   {children}
 
