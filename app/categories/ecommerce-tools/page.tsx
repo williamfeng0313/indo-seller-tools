@@ -78,6 +78,13 @@ export default function EcommerceToolsPage() {
         />
 
 
+          <ToolCard
+             title="Shopee Ads ROI Calculator"
+             description="Calculate Shopee advertising ROI instantly."
+             href="/tools/shopee-ads-roi-calculator"
+          />
+
+
 
 
       </section>

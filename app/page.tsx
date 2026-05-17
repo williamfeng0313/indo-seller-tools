@@ -103,6 +103,13 @@ export default function Home() {
           description="Calculate TikTok affiliate commissions instantly."
           href="/tools/tiktok-affiliate-calculator"
         />
+    
+        <ToolCard
+          title="Shopee Ads ROI Calculator"
+          description="Calculate Shopee advertising ROI instantly."
+          href="/tools/shopee-ads-roi-calculator"
+        />
+
 
 
 
