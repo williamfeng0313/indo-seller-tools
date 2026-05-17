@@ -69,6 +69,14 @@ export default function Home() {
         description="Calculate Shopee commissions and seller profit instantly."
         href="/tools/shopee-fee-calculator"
       />
+
+
+      <ToolCard
+        title="Shopee ROI Calculator"
+        description="Calculate Shopee ROI and profitability instantly."
+        href="/tools/shopee-roi-calculator"
+      />
+
  
       </section>
 

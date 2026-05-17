@@ -44,6 +44,13 @@ export default function EcommerceToolsPage() {
           description="Reply to customers using AI-generated responses."
           href="/tools/whatsapp-reply-generator"
         />
+        
+        <ToolCard
+          title="Shopee ROI Calculator"
+          description="Calculate Shopee ROI and profitability instantly."
+          href="/tools/shopee-roi-calculator"
+        />
+
 
       </section>
 
