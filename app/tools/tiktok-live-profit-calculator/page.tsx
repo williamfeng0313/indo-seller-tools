@@ -1,9 +1,10 @@
+
 import Calculator from "./Calculator";
 
 export const metadata = {
-  title: "Shopee Free Shipping Calculator Indonesia",
+  title: "TikTok Profit Calculator Indonesia",
   description:
-    "Calculate Shopee free shipping costs, seller profit and margins instantly.",
+    "Calculate TikTok profit instantly.",
 };
 
 export default function Page() {

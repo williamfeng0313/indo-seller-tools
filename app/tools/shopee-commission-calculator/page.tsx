@@ -1,9 +1,9 @@
 import Calculator from "./Calculator";
 
 export const metadata = {
-  title: "Shopee Free Shipping Calculator Indonesia",
+  title: "Shopee Commission Calculator Indonesia",
   description:
-    "Calculate Shopee free shipping costs, seller profit and margins instantly.",
+    "Free Shopee commission calculator for Indonesian sellers.",
 };
 
 export default function Page() {

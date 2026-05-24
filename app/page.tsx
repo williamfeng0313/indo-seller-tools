@@ -160,6 +160,19 @@ export default function Home() {
           href="/tools/shopee-free-shipping-calculator"
         />
 
+        
+         <ToolCard
+           title="Shopee Commission Calculator Indonesia"
+           description="Free Shopee commission calculator for Indonesian sellers."
+           href="/tools/shopee-commission-calculator"
+        />
+
+        <ToolCard
+           title="TikTok Live Profit Calculator Indonesia"
+           description="Free TikTok live profit calculator for Indonesian sellers."
+           href="/tools/tiktok-live-profit-calculator"
+        />
+
 
       </section>
 
