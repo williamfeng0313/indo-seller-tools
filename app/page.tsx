@@ -136,6 +136,18 @@ export default function Home() {
           href="/tools/shopee-live-roi-calculator"
         />
 
+        <ToolCard
+          title="Shopee Live Profit Calculator"
+          description="Calculate Shopee Live selling profit and livestream costs."
+          href="/tools/shopee-live-profit-calculator"
+        />
+
+        <ToolCard
+          title="Shopee Live Margin Calculator"
+          description="Calculate Shopee Live seller margins instantly."
+          href="/tools/shopee-live-margin-calculator"
+        />
+
 
       </section>
 
