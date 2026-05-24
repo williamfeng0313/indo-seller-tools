@@ -123,7 +123,11 @@ export default function Home() {
           href="/tools/shopee-ads-roi-calculator"
         />
 
-
+        <ToolCard
+          title="Shopee COD Calculator"
+          description="Calculate Shopee COD fees and seller profit instantly."
+          href="/tools/shopee-cod-calculator"
+        />
 
 
 

@@ -13,10 +13,10 @@ export default function Calculator() {
   const [packagingCost, setPackagingCost] = useState(0);
   const [feePercent, setFeePercent] = useState(0);
 
-  const shopeeFee = (price * feePercent) / 100;
+  const codFee = (price * feePercent) / 100;
 
   const totalCost =
-    productCost + shippingCost + packagingCost + shopeeFee;
+    productCost + shippingCost + packagingCost + codFee;
 
   const profit = price - totalCost;
 
@@ -25,8 +25,8 @@ export default function Calculator() {
 
   return (
     <CalculatorLayout
-      title="Shopee Fee Calculator"
-      description="Calculate Shopee seller fees and net profit instantly."
+      title="Shopee COD Calculator"
+      description="Calculate Shopee COD fees and seller profit instantly."
     >
       <section className="max-w-4xl mx-auto mt-16 grid md:grid-cols-2 gap-10">
         <div className="border rounded-2xl p-8">
@@ -37,7 +37,7 @@ export default function Calculator() {
             <InputField label="Product Cost" onChange={setProductCost} />
             <InputField label="Shipping Cost" onChange={setShippingCost} />
             <InputField label="Packaging Cost" onChange={setPackagingCost} />
-            <InputField label="Shopee Fee %" onChange={setFeePercent} />
+            <InputField label="COD Fee %" onChange={setFeePercent} />
           </div>
         </div>
 
@@ -52,27 +52,27 @@ export default function Calculator() {
       </section>
 
       <section className="max-w-4xl mx-auto mt-24">
-        <h2 className="text-3xl font-bold">How Shopee Fees Work</h2>
+        <h2 className="text-3xl font-bold">How Shopee COD Fees Work</h2>
 
         <p className="mt-6 text-gray-700 leading-8">
-          Shopee sellers in Indonesia need to calculate platform commissions,
-          shipping fees, packaging costs and operational expenses carefully.
-          Many Shopee stores lose profit because they underestimate hidden
-          marketplace costs and transaction fees.
+          Shopee COD orders in Indonesia include additional cash-on-delivery
+          handling fees on top of regular platform commissions. Sellers need
+          to factor in COD charges, shipping, packaging and product costs to
+          understand their real profit on each order.
         </p>
       </section>
 
       <FAQSection
         faqs={[
           {
-            question: "How much does Shopee charge sellers?",
+            question: "How much does Shopee charge for COD orders?",
             answer:
-              "Shopee seller fees vary by category, but usually include transaction and commission fees.",
+              "Shopee COD fees vary by order value and seller program, but typically include a percentage-based COD handling fee.",
           },
           {
-            question: "How can sellers improve Shopee profit margins?",
+            question: "Is COD profitable for Shopee sellers?",
             answer:
-              "Sellers can improve profit by reducing shipping costs, packaging expenses and platform fees.",
+              "COD can be profitable when sellers account for higher return rates, COD fees and shipping costs in their pricing.",
           },
         ]}
       />
