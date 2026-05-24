@@ -173,6 +173,17 @@ export default function Home() {
            href="/tools/tiktok-live-profit-calculator"
         />
 
+        <ToolCard
+           title="TikTok Commission Calculator Indonesia"
+           description="Calculate TikTok Shop commission fees and seller profit instantly."
+           href="/tools/tiktok-commission-calculator"
+        />
+
+        <ToolCard
+           title="TikTok Live ROI Calculator"
+           description="Calculate TikTok Live ROI and profitability instantly."
+           href="/tools/tiktok-live-roi-calculator"
+        />
 
       </section>
 
