@@ -10,6 +10,7 @@ export default function Calculator() {
   const [shipping, setShipping] = useState(0);
   const [creatorCommission, setCreatorCommission] = useState(0);
   const [affiliate, setAffiliate] = useState(0);
+  const [ads, setAds] = useState(0);
 
   const totalCost =
             cost +
