@@ -11,6 +11,7 @@ const [price, setPrice] = useState(0);
 const [productCost, setProductCost] = useState(0);
 const [shippingCost, setShippingCost] = useState(0);
 const [packagingCost, setPackagingCost] = useState(0);
+const [liveHostCost, setLiveHostCost] = useState(0);
 const [feePercent, setFeePercent] = useState(0);
 
 const platformFee = (price * feePercent) / 100;
@@ -19,6 +20,7 @@ const totalCost =
   productCost +
   shippingCost +
   packagingCost +
+  liveHostCost +
   platformFee;
 
 const profit = price - totalCost;
@@ -47,8 +49,8 @@ const margin =
       {/* Hero */}
       
       <ToolHero
-        title="Shopee ROI Calculator"
-        description="Calculate Shopee ROI and profitability instantly."
+        title="Shopee Live Profit Calculator"
+        description="Calculate Shopee Live selling profit instantly."
       />
 
 
@@ -114,7 +116,19 @@ const margin =
       onChange={(e) => setPackagingCost(Number(e.target.value))}
     />
   </div>
+  
+  <div>
+  <label className="block mb-2 font-medium">
+    Live Host Cost
+  </label>
 
+  <input
+    type="number"
+    className="w-full border rounded-xl px-4 py-3"
+    onChange={(e) => setLiveHostCost(Number(e.target.value))}
+  />
+  </div>
+  
   <div>
     <label className="block mb-2 font-medium">
       Shopee Fee %
@@ -181,14 +195,14 @@ const margin =
       <section className="max-w-4xl mx-auto mt-24">
 
         <h2 className="text-3xl font-bold">
-         How Shopee ROI Works
+        How Shopee Live Selling Works
         </h2>
 
         <p className="mt-6 text-gray-700 leading-8">
         
-        Shopee sellers must calculate ROI carefully to understand whether advertising, 
-        shipping and operational costs are generating sustainable profit.
-        A high ROI means your Shopee store is scaling efficiently while maintaining healthy margins.
+        Shopee Live is becoming one of the fastest-growing ecommerce channels in Indonesia.
+        Sellers need to calculate livestream host costs, platform fees, 
+        shipping expenses and product margins carefully to stay profitable during live campaigns.
 
 
         </p>
@@ -206,21 +220,21 @@ const margin =
 
           <div>
             <h3 className="text-xl font-semibold">
-            How much does Shopee charge sellers?
+            How profitable is Shopee Live?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Shopee seller fees vary by category, but usually include transaction and commission fees.
+            Many Indonesian sellers use Shopee Live to increase conversion rates and boost daily sales volume.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold">
-            How can sellers improve Shopee profit margins?
+            What are Shopee Live costs?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Sellers can improve profit by reducing shipping costs, packaging expenses and platform fees.
+            Shopee Live costs may include livestream host fees, product discounts, affiliate commissions and advertising expenses.
             </p>
           </div>
 

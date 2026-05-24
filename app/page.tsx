@@ -130,6 +130,11 @@ export default function Home() {
         />
 
 
+        <ToolCard
+          title="Shopee live ROI Calculator"
+          description="Calculate Shopee live ROI fees and seller profit instantly."
+          href="/tools/shopee-live-roi-calculator"
+        />
 
 
       </section>
