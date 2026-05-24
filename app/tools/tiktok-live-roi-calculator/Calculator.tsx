@@ -15,6 +15,11 @@ export default function Calculator() {
     cost + shipping + ads + (price * affiliate) / 100;
 
   const profit = price - totalCost;
+  
+  const roi =
+  totalCost > 0
+    ? ((profit / totalCost) * 100).toFixed(1)
+    : 0;
 
   const margin =
     price > 0 ? ((profit / price) * 100).toFixed(1) : 0;

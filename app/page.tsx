@@ -185,6 +185,13 @@ export default function Home() {
            href="/tools/tiktok-live-roi-calculator"
         />
 
+        <ToolCard
+           title="TikTok Shop Fee Calculator"
+           description="Calculate TikTok Shop seller fees and net profit instantly."
+           href="/tools/tiktok-shop-fee-calculator"   
+        />
+
+
       </section>
 
       {/* SEO Content */}
