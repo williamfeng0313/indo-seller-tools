@@ -147,6 +147,18 @@ export default function Home() {
           description="Calculate Shopee Live seller margins instantly."
           href="/tools/shopee-live-margin-calculator"
         />
+        
+        <ToolCard
+          title="Shopee Discount Calculator"
+          description="Calculate Shopee discounts and seller margins instantly."
+          href="/tools/shopee-discount-calculator"
+        />
+        
+        <ToolCard
+          title="Shopee Free Shipping Calculator"
+          description="Calculate Shopee free shipping costs and seller margins."
+          href="/tools/shopee-free-shipping-calculator"
+        />
 
 
       </section>

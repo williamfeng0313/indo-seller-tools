@@ -12,23 +12,25 @@ const [productCost, setProductCost] = useState(0);
 const [shippingCost, setShippingCost] = useState(0);
 const [packagingCost, setPackagingCost] = useState(0);
 const [liveHostCost, setLiveHostCost] = useState(0);
-const [feePercent, setFeePercent] = useState(0);
+const [discount, setDiscount] = useState(0);
 
-const platformFee = (price * feePercent) / 100;
+const discountedPrice =
+  price - (price * discount) / 100;
 
 const totalCost =
   productCost +
   shippingCost +
   packagingCost +
-  liveHostCost +
-  platformFee;
+  
 
-const profit = price - totalCost;
+const profit = discountedPrice - totalCost;
 
 
 
 const margin =
-  price > 0 ? ((profit / price) * 100).toFixed(1) : 0;
+  discountedPrice > 0
+    ? ((profit / discountedPrice) * 100).toFixed(1)
+    : 0;
 
 
 
@@ -127,13 +129,13 @@ const margin =
   
   <div>
     <label className="block mb-2 font-medium">
-      Shopee Fee %
+     Discount %
     </label>
 
     <input
       type="number"
       className="w-full border rounded-xl px-4 py-3"
-      onChange={(e) => setFeePercent(Number(e.target.value))}
+      onChange={(e) => setDiscount(Number(e.target.value))}
     />
   </div>
 
@@ -149,6 +151,19 @@ const margin =
 
           <div className="space-y-6">
 
+           <div>
+             <p className="text-gray-400">
+              Discounted Price
+             </p>
+
+             <h3 className="text-4xl font-bold mt-2">
+              Rp {discountedPrice}
+             </h3>
+            </div>
+            
+            
+            
+            
             <div>
               <p className="text-gray-400">
                 Net Profit
@@ -182,15 +197,15 @@ const margin =
       <section className="max-w-4xl mx-auto mt-24">
 
         <h2 className="text-3xl font-bold">
-        How Shopee Live Margins Work
+        How Shopee Discounts Affect Profit
         </h2>
 
         <p className="mt-6 text-gray-700 leading-8">
         
-        Shopee Live sellers in Indonesia need to monitor profit margins carefully during livestream campaigns.
+        Shopee sellers in Indonesia often use discounts to increase conversions and sales volume.
 
-        High sales volume does not always mean high profitability because livestream discounts, 
-        affiliate commissions and operational costs can reduce margins significantly.
+        However, excessive discounts can reduce profit margins significantly if shipping costs and
+        operational expenses are not calculated carefully.
 
         </p>
 
@@ -207,21 +222,21 @@ const margin =
 
           <div>
             <h3 className="text-xl font-semibold">
-            What is a good Shopee Live profit margin?
+            What is a good Shopee discount strategy?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Many profitable Shopee Live sellers target margins above 20% after livestream and affiliate costs.
+            Many sellers combine moderate discounts with free shipping to maximize conversions while protecting profit margins.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold">
-            Why do Shopee Live margins decrease?
+            How do discounts reduce Shopee profits?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Heavy discounts, creator commissions and shipping subsidies can reduce Shopee Live profit margins significantly.
+            Large discounts can reduce net margins quickly, especially for low-ticket products with high shipping costs.
             </p>
           </div>
 
