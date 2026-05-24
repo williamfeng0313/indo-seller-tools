@@ -20,7 +20,7 @@ const discountedPrice =
 const totalCost =
   productCost +
   shippingCost +
-  packagingCost +
+  packagingCost
   
 
 const profit = discountedPrice - totalCost;
