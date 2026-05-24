@@ -1,10 +1,9 @@
-
 import Calculator from "./Calculator";
 
 export const metadata = {
-  title: "TikTok Profit Calculator Indonesia",
+  title: "TikTok Shop Fee Calculator Indonesia",
   description:
-    "Calculate TikTok profit instantly.",
+    "Calculate TikTok Shop seller fees and net profit instantly.",
 };
 
 export default function Page() {
