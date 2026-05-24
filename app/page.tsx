@@ -191,6 +191,25 @@ export default function Home() {
            href="/tools/tiktok-shop-fee-calculator"   
         />
 
+        <ToolCard
+           title="Tiktok margin Calculator Indonesia"
+           description="Calculate Tiktok Live seller margins instantly"
+           href="/tools/tiktok-margin-calculator"
+        />
+
+        <ToolCard
+           title="TikTok Shop Profit Calculator Indonesia"
+           description="Free TikTok Shop Profit Calculator for Indonesian sellers."
+           href="/tools/tiktok-shop-profit-calculator"
+        />
+
+        <ToolCard
+           title="TikTok Shop Margin Calculator Indonesia"
+           description="Free TikTok Shop Margin Calculator for Indonesian sellers."
+           href="/tools/tiktok-shop-margin-calculator"
+        />
+
+
 
       </section>
 

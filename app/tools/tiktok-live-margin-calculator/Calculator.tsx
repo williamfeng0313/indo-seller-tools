@@ -6,7 +6,7 @@ import ToolHero from "@/components/ToolHero";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Calculator() {
+export default function ShopeeROICalculator() {
 const [price, setPrice] = useState(0);
 const [productCost, setProductCost] = useState(0);
 const [shippingCost, setShippingCost] = useState(0);
@@ -45,8 +45,8 @@ const margin =
       {/* Hero */}
       
       <ToolHero
-        title="Tiktok Live Margin Calculator"
-        description="Calculate Tiktok Live profit margins instantly."
+        title="Shopee Live Margin Calculator"
+        description="Calculate Shopee Live profit margins instantly."
       />
 
 
@@ -182,12 +182,12 @@ const margin =
       <section className="max-w-4xl mx-auto mt-24">
 
         <h2 className="text-3xl font-bold">
-        How Tiktok Live Margins Work
+        How Shopee Live Margins Work
         </h2>
 
         <p className="mt-6 text-gray-700 leading-8">
         
-        Tiktok Live sellers in Indonesia need to monitor profit margins carefully during livestream campaigns.
+        Shopee Live sellers in Indonesia need to monitor profit margins carefully during livestream campaigns.
 
         High sales volume does not always mean high profitability because livestream discounts, 
         affiliate commissions and operational costs can reduce margins significantly.
@@ -207,21 +207,21 @@ const margin =
 
           <div>
             <h3 className="text-xl font-semibold">
-            What is a good Tiktok Live profit margin?
+            What is a good Shopee Live profit margin?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Many profitable Tiktok Live sellers target margins above 20% after livestream and affiliate costs.
+            Many profitable Shopee Live sellers target margins above 20% after livestream and affiliate costs.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold">
-            Why do Tiktok Live margins decrease?
+            Why do Shopee Live margins decrease?
             </h3>
 
             <p className="mt-2 text-gray-600">
-            Heavy discounts, creator commissions and shipping subsidies can reduce Tiktok Live profit margins significantly.
+            Heavy discounts, creator commissions and shipping subsidies can reduce Shopee Live profit margins significantly.
             </p>
           </div>
 
