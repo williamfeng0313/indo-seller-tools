@@ -22,6 +22,11 @@ export default function Navbar() {
           <Link href="/#tools">
             Tools
           </Link>
+          
+          <Link href="/blog">
+            Blog
+          </Link>
+
 
         </div>
 

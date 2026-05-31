@@ -260,6 +260,31 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto mt-24">
+
+      <h2 className="text-3xl font-bold">
+       Latest Ecommerce Guides
+      </h2>
+
+       <div className="grid md:grid-cols-3 gap-6 mt-8">
+
+      <Link
+      href="/blog/how-much-profit-should-shopee-sellers-make"
+       className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-xl font-semibold">
+        How Much Profit Should Shopee Sellers Make?
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+        Learn the ideal profit margin and ROI targets for Shopee sellers in Indonesia.
+      </p>
+    </Link>
+
+     </div>
+
+   </section>
+
     </main>
     </>
   );
