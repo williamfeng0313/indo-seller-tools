@@ -17,7 +17,14 @@ export default function Page() {
         ← Back to Blog
       </Link>
 
-      <article className="prose prose-lg max-w-none mt-8">
+      <article className="
+        prose
+        prose-base
+        md:prose-lg
+        max-w-none
+        mt-8
+      ">
+  
 
         <h1>Why TikTok Shop Sellers Lose Money in Indonesia</h1>
 

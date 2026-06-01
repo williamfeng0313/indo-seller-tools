@@ -17,7 +17,13 @@ export default function Page() {
         ← Back Home
       </Link>
 
-      <article className="prose prose-lg max-w-none mt-8">
+      <article className="
+        prose
+        prose-base
+        md:prose-lg
+        max-w-none
+        mt-8
+      ">
 
         <h1>
           How Much Profit Should Shopee Sellers Make in Indonesia?

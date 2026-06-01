@@ -11,7 +11,13 @@ export default function Page() {
     <main className="max-w-4xl mx-auto px-6 py-16">
       <Link href="/">← Back Home</Link>
 
-      <article className="prose prose-lg max-w-none mt-8">
+      <article className="
+          prose
+          prose-base
+          md:prose-lg
+          max-w-none
+          mt-8
+      ">
         <h1>How to Calculate Shopee ROI</h1>
 
         <p>
