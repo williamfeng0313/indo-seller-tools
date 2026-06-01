@@ -245,7 +245,7 @@ export default function Home() {
               and additional advertising costs depending on the seller setup.
             </p>
           </div>
-
+        
           <div>
             <h3 className="font-semibold text-xl">
               Can AI improve Shopee product titles?
@@ -258,33 +258,69 @@ export default function Home() {
           </div>
 
         </div>
-      </section>
+        </section>
+        <section className="max-w-6xl mx-auto px-6 py-24">
 
-      <section className="max-w-6xl mx-auto mt-24">
+       <h2 className="text-4xl font-bold">
+         Latest Ecommerce Guides
+       </h2>
 
-      <h2 className="text-3xl font-bold">
-       Latest Ecommerce Guides
-      </h2>
-
-       <div className="grid md:grid-cols-3 gap-6 mt-8">
+       <div className="grid md:grid-cols-3 gap-6 mt-10">
 
       <Link
       href="/blog/how-much-profit-should-shopee-sellers-make"
-       className="border rounded-2xl p-6 hover:shadow-lg transition"
-    >
+      className="border rounded-2xl p-6 hover:shadow-lg"
+     >
       <h3 className="text-xl font-semibold">
         How Much Profit Should Shopee Sellers Make?
       </h3>
 
       <p className="mt-3 text-gray-600">
-        Learn the ideal profit margin and ROI targets for Shopee sellers in Indonesia.
+        Learn the ideal profit margin and ROI targets for Shopee sellers.
+      </p>
+     </Link>
+
+     <Link
+      href="/blog/how-to-price-products-on-shopee"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+     >
+      <h3 className="text-xl font-semibold">
+        How To Price Products On Shopee
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+        Discover pricing strategies that improve margins.
+      </p>
+      </Link>
+      
+      <Link
+      href="/blog/shopee-cod-vs-non-cod"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+        Shopee COD vs Non-COD
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+        Compare COD and prepaid orders for Indonesian sellers.
       </p>
     </Link>
 
+    <Link
+      href="/blog/how-to-calculate-shopee-roi"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       how-to-calculate-shopee-roi
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+          how-to-calculate-shopee-roi.
+      </p>
+    </Link>
      </div>
 
-   </section>
-
+    </section>
     </main>
     </>
   );
