@@ -159,7 +159,11 @@ const margin =
               Discounted Price
              </p>
 
-             <h3 className="text-4xl font-bold mt-2">
+             <h3 className="
+              text-3xl
+              md:text-4xl
+              font-bold
+              ">
               Rp {discountedPrice}
              </h3>
             </div>
@@ -172,7 +176,11 @@ const margin =
                 Net Profit
               </p>
 
-              <h3 className="text-4xl font-bold mt-2">
+              <h3 className="
+              text-3xl
+              md:text-4xl
+              font-bold
+              ">
                 Rp {profit}
               </h3>
             </div>
@@ -184,7 +192,11 @@ const margin =
                  Profit Margin
                </p>
 
-               <h3 className="text-4xl font-bold mt-2">
+               <h3 className="
+               text-3xl
+               md:text-4xl
+               font-bold
+               ">
                  {margin}%
                </h3>
              </div>

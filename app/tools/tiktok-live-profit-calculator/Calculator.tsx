@@ -117,7 +117,11 @@ export default function Calculator() {
                 Net Profit
               </p>
 
-              <h3 className="text-4xl font-bold mt-2">
+              <h3 className="
+              text-3xl
+              md:text-4xl
+              font-bold
+              ">
                 Rp {profit}
               </h3>
             </div>
@@ -127,7 +131,11 @@ export default function Calculator() {
                 Profit Margin
               </p>
 
-              <h3 className="text-4xl font-bold mt-2">
+              <h3 className="
+              text-3xl
+              md:text-4xl
+              font-bold
+              ">
                 {margin}%
               </h3>
             </div>

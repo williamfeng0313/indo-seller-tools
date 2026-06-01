@@ -114,7 +114,11 @@ Results
 Net Profit
 </p>
 
-<h3 className="text-4xl font-bold mt-2">
+<h3 className="
+text-3xl
+md:text-4xl
+font-bold
+">
 Rp {profit}
 </h3>
 </div>
@@ -124,7 +128,11 @@ Rp {profit}
 Profit Margin
 </p>
 
-<h3 className="text-4xl font-bold mt-2">
+<h3 className="
+text-3xl
+md:text-4xl
+font-bold
+">
 {margin}%
 </h3>
 </div>

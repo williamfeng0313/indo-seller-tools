@@ -81,7 +81,12 @@ export default function Calculator() {
                 Commission Fee
               </p>
 
-              <h3 className="text-4xl font-bold mt-2">
+              <h3 className="
+               text-3xl
+               md:text-4xl
+               font-bold
+               ">
+
                 Rp {commission}
               </h3>
             </div>
@@ -91,7 +96,11 @@ export default function Calculator() {
                 Final Revenue
               </p>
 
-              <h3 className="text-4xl font-bold mt-2">
+              <h3 className="
+               text-3xl
+               md:text-4xl
+               font-bold
+               ">
                 Rp {finalRevenue}
               </h3>
             </div>
