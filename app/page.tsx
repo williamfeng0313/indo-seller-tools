@@ -311,7 +311,7 @@ export default function Home() {
       className="border rounded-2xl p-6 hover:shadow-lg"
     >
       <h3 className="text-xl font-semibold">
-       How-to-calculate-shopee-roi
+       How to calculate Shopee roi
       </h3>
 
       <p className="mt-3 text-gray-600">
@@ -324,7 +324,7 @@ export default function Home() {
       className="border rounded-2xl p-6 hover:shadow-lg"
     >
       <h3 className="text-xl font-semibold">
-       Why-tiktok-sellers-lose-money
+       Why Tiktok sellers lose money
       </h3>
 
       <p className="mt-3 text-gray-600">
@@ -337,13 +337,66 @@ export default function Home() {
       className="border rounded-2xl p-6 hover:shadow-lg"
     >
       <h3 className="text-xl font-semibold">
-        Shopee-vs-tiktok-shop
+        Shopee vs Tiktok shop
       </h3>
 
       <p className="mt-3 text-gray-600">
       Compare traffic, profit margins and growth opportunities across both platforms.
       </p>
     </Link>
+
+    <Link
+      href="/blog/how-to-calculate-tiktok-shop-profit"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       How to calculate Tiktok shop profit
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+       Understand TikTok Shop profit calculations including fees, commissions, shipping and advertising costs.
+      </p>
+    </Link>
+
+    <Link
+      href="/blog/tiktok-affiliate-commission-explained"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       TikTok Affiliate Commission Explained
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+       Learn how TikTok affiliate commissions work and how they affect seller profitability.
+      </p>
+    </Link>
+
+    <Link
+      href="/blog/how-much-does-tiktok-shop-charge-sellers"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       How Much Does TikTok Shop Charge Sellers?
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+       Understand TikTok Shop fees, commissions and seller costs before launching your products.
+      </p>
+    </Link>
+
+    <Link
+      href="/blog/shopee-live-vs-tiktok-live"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       Shopee Live vs TikTok Live
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+      Compare Shopee Live and TikTok Live to find the best channel for sales and customer engagement.
+      </p>
+    </Link>
+
      </div>
 
     </section>

@@ -97,6 +97,58 @@ export default function BlogPage() {
            Learn the most common mistakes that reduce TikTok Shop profits and how to avoid them.
           </p>
         </Link>
+
+        <Link
+          href="/blog/how-to-calculate-tiktok-shop-profit"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+          How To Calculate TikTok Shop Profit
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+          Understand TikTok Shop profit calculations including fees, commissions, shipping and advertising costs.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/tiktok-affiliate-commission-explained"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+           TikTok Affiliate Commission Explained
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+          Learn how TikTok affiliate commissions work and how they affect seller profitability.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/how-much-does-tiktok-shop-charge-sellers"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+           How Much Does TikTok Shop Charge Sellers?
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+          Understand TikTok Shop fees, commissions and seller costs before launching your products.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/shopee-live-vs-tiktok-live"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+           Shopee Live vs TikTok Live
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+           Compare Shopee Live and TikTok Live to find the best channel for sales and customer engagement.
+          </p>
+        </Link>
         
       </div>
 
