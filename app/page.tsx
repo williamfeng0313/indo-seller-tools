@@ -311,11 +311,37 @@ export default function Home() {
       className="border rounded-2xl p-6 hover:shadow-lg"
     >
       <h3 className="text-xl font-semibold">
-       how-to-calculate-shopee-roi
+       How-to-calculate-shopee-roi
       </h3>
 
       <p className="mt-3 text-gray-600">
-          how-to-calculate-shopee-roi.
+       Learn the Shopee ROI formula and discover how profitable sellers evaluate ecommerce performance.
+      </p>
+    </Link>
+
+    <Link
+      href="/blog/why-tiktok-sellers-lose-money"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+       Why-tiktok-sellers-lose-money
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+      Learn why many TikTok Shop sellers struggle with profit despite high sales volume.
+      </p>
+    </Link>
+
+    <Link
+      href="/blog/shopee-vs-tiktok-shop"
+      className="border rounded-2xl p-6 hover:shadow-lg"
+    >
+      <h3 className="text-xl font-semibold">
+        Shopee-vs-tiktok-shop
+      </h3>
+
+      <p className="mt-3 text-gray-600">
+      Compare traffic, profit margins and growth opportunities across both platforms.
       </p>
     </Link>
      </div>

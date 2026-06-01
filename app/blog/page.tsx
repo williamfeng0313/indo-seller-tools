@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Ecommerce Blog",
+  title: "Ecommerce Blog | Indo Seller Tools",
   description:
-    "Guides for Shopee, TikTok Shop, Tokopedia and Indonesian ecommerce sellers.",
+    "Guides, tutorials and ecommerce strategies for Shopee, TikTok Shop, Tokopedia and Lazada sellers in Indonesia.",
 };
 
 export default function BlogPage() {
@@ -11,41 +11,93 @@ export default function BlogPage() {
     <main className="max-w-6xl mx-auto px-6 py-16">
 
       <h1 className="text-5xl font-bold">
-        Ecommerce Seller Blog
+        Ecommerce Blog
       </h1>
 
-      <p className="mt-4 text-gray-600">
-        Practical guides for Indonesian ecommerce sellers.
+      <p className="mt-6 text-xl text-gray-600">
+        Ecommerce guides and profitability tips for Indonesian sellers.
       </p>
 
-      <div className="grid md:grid-cols-2 gap-8 mt-12">
+      <div className="grid md:grid-cols-3 gap-6 mt-12">
 
         <Link
           href="/blog/how-much-profit-should-shopee-sellers-make"
-          className="border rounded-2xl p-6 hover:shadow-lg"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
         >
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-xl font-semibold">
             How Much Profit Should Shopee Sellers Make?
           </h2>
 
           <p className="mt-3 text-gray-600">
-            Learn healthy Shopee profit margins and avoid common mistakes.
+          Learn the ideal profit margin, ROI targets and profitability benchmarks for Shopee sellers in Indonesia.
           </p>
         </Link>
 
         <Link
           href="/blog/how-to-price-products-on-shopee"
-          className="border rounded-2xl p-6 hover:shadow-lg"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
         >
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-xl font-semibold">
             How To Price Products On Shopee
           </h2>
 
           <p className="mt-3 text-gray-600">
-            Discover pricing strategies that improve margins.
+           Discover pricing strategies that balance competitiveness, conversion rates and healthy profit margins.
           </p>
         </Link>
 
+        <Link
+          href="/blog/shopee-cod-vs-non-cod"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+            Shopee COD vs Non-COD
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+           Compare COD and prepaid orders to understand their impact on profitability and cash flow.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/how-to-calculate-shopee-roi"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+           How To Calculate Shopee ROI
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+          Learn the Shopee ROI formula and discover how profitable sellers measure ecommerce performance.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/shopee-vs-tiktok-shop"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+           Shopee vs TikTok Shop
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+           Compare traffic sources, profit margins and growth opportunities across Indonesia's top ecommerce platforms.
+          </p>
+        </Link>
+
+        <Link
+          href="/blog/why-tiktok-sellers-lose-money"
+          className="border rounded-2xl p-6 hover:shadow-lg transition"
+        >
+          <h2 className="text-xl font-semibold">
+          TikTok Sellers Lose Money
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+           Learn the most common mistakes that reduce TikTok Shop profits and how to avoid them.
+          </p>
+        </Link>
+        
       </div>
 
     </main>
