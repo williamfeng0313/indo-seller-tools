@@ -58,15 +58,18 @@ export default function IndonesianToolsPage() {
             </p>
           </Link>
 
-          <div className="border rounded-2xl p-6 opacity-60">
-            <h2 className="text-xl font-semibold">
-              Kalkulator Komisi TikTok
-            </h2>
+          <Link
+            href="/id/tools/kalkulator-komisi-tiktok"
+            className="border rounded-2xl p-6 hover:shadow-md transition"
+           >
+          <h2 className="text-xl font-semibold">Kalkulator Komisi TikTok</h2>
 
-            <p className="mt-3 text-gray-600 leading-7">
-              Segera hadir. Hitung komisi dan profit produk untuk TikTok Shop.
-            </p>
-          </div>
+          <p className="mt-3 text-gray-600 leading-7">
+           Hitung komisi TikTok Shop, biaya platform, profit bersih, dan margin jualan.
+          </p>
+
+          <p className="mt-5 text-sm font-medium">Buka tool →</p>
+          </Link>
 
           <div className="border rounded-2xl p-6 opacity-60">
             <h2 className="text-xl font-semibold">
