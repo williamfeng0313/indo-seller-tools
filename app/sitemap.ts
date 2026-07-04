@@ -23,6 +23,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/tools/shopee-fee-calculator`,
       lastModified: new Date(),
     },
+    
+    {
+      url: `${baseUrl}/id/tools/kalkulator-biaya-shopee`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
 
     {
       url: `${baseUrl}/tools/shopee-roi-calculator`,
