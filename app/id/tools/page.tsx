@@ -22,7 +22,7 @@ export default function IndonesianToolsPage() {
             ← Beranda
           </Link>
 
-          <Link href="/tools" className="text-sm text-gray-500 hover:text-black">
+          <Link href="/categories/ecommerce-tools" className="text-sm text-gray-500 hover:text-black">
             English tools →
           </Link>
         </div>

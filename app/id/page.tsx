@@ -44,12 +44,12 @@ export default function IndonesianHomePage() {
               Coba Kalkulator Shopee
             </Link>
 
-            <Link
-              href="/tools"
+             <Link
+              href="/categories/ecommerce-tools"
               className="rounded-xl border px-6 py-3 font-medium hover:bg-gray-50"
-            >
-              Lihat Tools English
-            </Link>
+              >
+              Lihat Semua Tools English
+              </Link>
           </div>
         </section>
 
