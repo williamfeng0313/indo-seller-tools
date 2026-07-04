@@ -6,53 +6,65 @@ import Link from "next/link";
 export default function Home() {
   return (
    <>
-    <Navbar />
+    
 
     <main className="min-h-screen bg-white text-black">
+    <Navbar />
       
-      {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-        <h1 className="text-5xl font-bold leading-tight">
-          Free AI Tools for Indonesian Sellers
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
-          Boost your TikTok Shop & Shopee sales with free AI-powered tools.
-        </p>
-
-        
-        <Link
-          href="/tools/tiktok-profit-calculator"
-          className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
-        >
-          Try Free Tools
-        </Link>
-        
-        <div className="mt-8">
-          <Link
-            href="/categories/ecommerce-tools"
-            className="text-lg underline"
-          >
-            Browse All Ecommerce Tools →
-          </Link>
-        </div>
+     
     
-        
-        <div className="mt-8">
-          <Link
-            href="/categories/calculators"
-            className="text-lg underline"
-          >
-            Browse All Calculators →
-          </Link>
-        </div>
+      <div className="max-w-6xl mx-auto px-6 py-3 flex justify-end">
+        <Link
+          href="/id"
+          className="text-sm text-gray-500 hover:text-black"
+        >
+          Bahasa Indonesia →
+        </Link>
+      </div>
+    
 
+    {/* Hero Section */}
+    <section className="max-w-6xl mx-auto px-6 py-16 text-center">
+     <h1 className="text-5xl font-bold leading-tight">
+     Free AI Tools for Indonesian Sellers
+    </h1>
 
+  <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
+    Boost your TikTok Shop & Shopee sales with free AI-powered tools.
+  </p>
 
+  <div className="mt-10 flex justify-center gap-4 flex-wrap">
+    <Link
+      href="/tools/tiktok-profit-calculator"
+      className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
+    >
+      Try Free Tools
+    </Link>
 
+    <Link
+      href="/id"
+      className="border border-gray-300 text-black px-8 py-4 rounded-2xl inline-block hover:bg-gray-50"
+    >
+      Bahasa Indonesia
+    </Link>
+  </div>
 
-      </section>
+  <div className="mt-8 flex justify-center gap-6 flex-wrap">
+    <Link
+      href="/categories/ecommerce-tools"
+      className="text-lg underline"
+    >
+      Browse All Ecommerce Tools →
+    </Link>
 
+    <Link
+      href="/categories/calculators"
+      className="text-lg underline"
+    >
+      Browse All Calculators →
+    </Link>
+  </div>
+</section>
       {/* Tools Section */}
       <section
       id="tools" 
