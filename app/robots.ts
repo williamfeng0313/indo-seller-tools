@@ -1,10 +1,13 @@
+import type { MetadataRoute } from "next";
 
-export default function robots() {
+const baseUrl = "https://indosellertools.com";
+
+export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://indo-seller-tools.vercel.app/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }
