@@ -54,7 +54,9 @@ export default function Home() {
       </section>
 
       {/* Tools Section */}
-      <section className="
+      <section
+      id="tools" 
+      className="
       max-w-6xl
       mx-auto
       px-6

@@ -1,24 +1,57 @@
+import type { MetadataRoute } from "next";
 
-export default function sitemap() {
+const baseUrl = "https://indosellertools.com";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://indo-seller-tools.vercel.app",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://indo-seller-tools.vercel.app/tools/tiktok-profit-calculator",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://indo-seller-tools.vercel.app/tools/product-title-generator",
-      lastModified: new Date(),
-    },
-    
-    {
-      url: "https://indo-seller-tools.vercel.app/tools/whatsapp-reply-generator",
+      url: baseUrl,
       lastModified: new Date(),
     },
 
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/categories/calculators`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/tools/shopee-fee-calculator`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/tools/shopee-roi-calculator`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/tools/tiktok-profit-calculator`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/tools/tiktok-shop-profit-calculator`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/blog/how-much-profit-should-shopee-sellers-make`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/blog/how-to-calculate-shopee-roi`,
+      lastModified: new Date(),
+    },
+
+    {
+      url: `${baseUrl}/blog/shopee-vs-tiktok-shop`,
+      lastModified: new Date(),
+    },
   ];
 }
-
