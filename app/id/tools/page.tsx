@@ -90,6 +90,21 @@ export default function IndonesianToolsPage() {
 
             <p className="mt-5 text-sm font-medium">Buka tool →</p>
           </Link>
+
+          <Link
+            href="/id/tools/kalkulator-komisi-shopee"
+            className="border rounded-2xl p-6 hover:shadow-md transition"
+           >
+           <h2 className="text-xl font-semibold">
+             Kalkulator Komisi Shopee
+           </h2>
+
+           <p className="mt-3 text-gray-600 leading-7">
+             Hitung komisi Shopee dan estimasi pendapatan setelah komisi.
+           </p>
+
+            <p className="mt-5 text-sm font-medium">Buka tool →</p>
+          </Link>
         </section>
       </section>
     </main>
