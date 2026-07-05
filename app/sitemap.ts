@@ -30,7 +30,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
 
+    
+    {
+      url: `${baseUrl}/id/tools/generator-judul-produk`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
 
+    
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),

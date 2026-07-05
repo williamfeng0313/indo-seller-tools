@@ -7,7 +7,7 @@ export const metadata = {
   alternates: {
     canonical: "https://indosellertools.com/id/tools",
     languages: {
-      en: "https://indosellertools.com/tools",
+      en: "https://indosellertools.com/categories/ecommerce-tools",
       id: "https://indosellertools.com/id/tools",
     },
   },
@@ -22,7 +22,10 @@ export default function IndonesianToolsPage() {
             ← Beranda
           </Link>
 
-          <Link href="/categories/ecommerce-tools" className="text-sm text-gray-500 hover:text-black">
+          <Link
+            href="/categories/ecommerce-tools"
+            className="text-sm text-gray-500 hover:text-black"
+          >
             English tools →
           </Link>
         </div>
@@ -53,33 +56,40 @@ export default function IndonesianToolsPage() {
               bersih, dan margin jualan.
             </p>
 
-            <p className="mt-5 text-sm font-medium">
-              Buka tool →
-            </p>
+            <p className="mt-5 text-sm font-medium">Buka tool →</p>
           </Link>
 
           <Link
             href="/id/tools/kalkulator-komisi-tiktok"
             className="border rounded-2xl p-6 hover:shadow-md transition"
-           >
-          <h2 className="text-xl font-semibold">Kalkulator Komisi TikTok</h2>
+          >
+            <h2 className="text-xl font-semibold">
+              Kalkulator Komisi TikTok
+            </h2>
 
-          <p className="mt-3 text-gray-600 leading-7">
-           Hitung komisi TikTok Shop, biaya platform, profit bersih, dan margin jualan.
-          </p>
+            <p className="mt-3 text-gray-600 leading-7">
+              Hitung komisi TikTok Shop, biaya platform, profit bersih, dan
+              margin jualan.
+            </p>
 
-          <p className="mt-5 text-sm font-medium">Buka tool →</p>
+            <p className="mt-5 text-sm font-medium">Buka tool →</p>
           </Link>
 
-          <div className="border rounded-2xl p-6 opacity-60">
+          <Link
+            href="/id/tools/generator-judul-produk"
+            className="border rounded-2xl p-6 hover:shadow-md transition"
+          >
             <h2 className="text-xl font-semibold">
               Generator Judul Produk
             </h2>
 
             <p className="mt-3 text-gray-600 leading-7">
-              Segera hadir. Buat judul produk yang lebih rapi untuk marketplace.
+              Buat judul produk yang lebih rapi dan menarik untuk Shopee,
+              TikTok Shop, Tokopedia, dan Lazada.
             </p>
-          </div>
+
+            <p className="mt-5 text-sm font-medium">Buka tool →</p>
+          </Link>
         </section>
       </section>
     </main>
