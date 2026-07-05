@@ -13,11 +13,11 @@ const [shippingCost, setShippingCost] = useState(0);
 const [packagingCost, setPackagingCost] = useState(0);
 const [feePercent, setFeePercent] = useState(0);
 
-const LazadaFee = (price * feePercent) / 100;
+const lazadaFee = (price * feePercent) / 100;
 
 const totalCost =
-  packagingCost +
-  LazadaFee;
+  packagingCost + shippingCost + packagingCost + 
+  lazadaFee;
 
 const profit = price - totalCost;
 
@@ -121,44 +121,52 @@ const margin =
 </div>
         {/* Results */}
         <div className="border rounded-2xl p-8 bg-black text-white">
+  <h2 className="text-2xl font-semibold mb-8">
+    Hasil Perhitungan
+  </h2>
 
-          <h2 className="text-2xl font-semibold mb-8">
-            Profit Results
-          </h2>
+  <div className="space-y-6">
+    <div>
+      <p className="text-gray-400">
+        Biaya Lazada
+      </p>
 
-          <div className="space-y-6">
+      <h3 className="text-3xl md:text-4xl font-bold">
+        Rp {lazadaFee.toFixed(0)}
+      </h3>
+    </div>
 
-            <div>
-              <p className="text-gray-400">
-                Net Profit
-              </p>
+    <div>
+      <p className="text-gray-400">
+        Total Biaya
+      </p>
 
-              <h3 className="
-              text-3xl
-              md:text-4xl
-              font-bold
-              ">
-                Rp {profit}
-              </h3>
-            </div>
+      <h3 className="text-3xl md:text-4xl font-bold">
+        Rp {totalCost.toFixed(0)}
+      </h3>
+    </div>
 
-            <div>
-              <p className="text-gray-400">
-                Profit Margin
-              </p>
+    <div>
+      <p className="text-gray-400">
+        Profit Bersih
+      </p>
 
-              <h3 className="
-              text-3xl
-              md:text-4xl
-              font-bold
-              ">
-                {margin}%
-              </h3>
-            </div>
+      <h3 className="text-3xl md:text-4xl font-bold">
+        Rp {profit.toFixed(0)}
+      </h3>
+    </div>
 
-          </div>
-        </div>
+    <div>
+      <p className="text-gray-400">
+        Margin Profit
+      </p>
 
+      <h3 className="text-3xl md:text-4xl font-bold">
+        {margin}%
+      </h3>
+    </div>
+  </div>
+</div>
       </section>
 
       {/* SEO Content */}
