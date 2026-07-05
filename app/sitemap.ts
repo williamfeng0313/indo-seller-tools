@@ -44,6 +44,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    
+    {
+      url: `${baseUrl}/id/tools/kalkulator-biaya-lazada`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
 
     {
       url: `${baseUrl}/blog`,

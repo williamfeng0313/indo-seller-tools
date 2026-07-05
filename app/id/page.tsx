@@ -121,6 +121,22 @@ export default function IndonesianHomePage() {
 
              <p className="mt-5 text-sm font-medium">Buka tool →</p>
             </Link>
+
+            <Link
+              href="/id/tools/kalkulator-biaya-lazada"
+              className="border rounded-2xl p-6 hover:shadow-md transition"
+            >
+            <h3 className="text-xl font-semibold">
+               Kalkulator Biaya Lazada
+            </h3>
+
+            <p className="mt-3 text-gray-600 leading-7">
+               Hitung fee Lazada, modal produk, ongkir, biaya packing, profit bersih, dan
+               margin jualan.
+            </p>
+
+             <p className="mt-5 text-sm font-medium">Buka tool →</p>
+            </Link>
           </div>
         </section>
 
