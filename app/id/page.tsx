@@ -72,23 +72,40 @@ export default function IndonesianHomePage() {
               </p>
             </Link>
 
-            <div className="border rounded-2xl p-6 opacity-60">
-              <h3 className="text-xl font-semibold">
-                Kalkulator Profit TikTok Shop
-              </h3>
-              <p className="mt-3 text-gray-600 leading-7">
-                Segera hadir. Hitung profit dan margin produk untuk TikTok Shop.
-              </p>
-            </div>
+            <Link
+              href="/id/tools/kalkulator-komisi-tiktok"
+              className="border rounded-2xl p-6 hover:shadow-md transition"
+            >
+             <h3 className="text-xl font-semibold">
+              Kalkulator Komisi TikTok
+             </h3>
 
-            <div className="border rounded-2xl p-6 opacity-60">
-              <h3 className="text-xl font-semibold">
-                Generator Judul Produk
-              </h3>
-              <p className="mt-3 text-gray-600 leading-7">
-                Segera hadir. Buat judul produk yang lebih rapi untuk marketplace.
-              </p>
-            </div>
+             <p className="mt-3 text-gray-600 leading-7">
+               Hitung komisi TikTok Shop, biaya platform, profit bersih, dan margin jualan.
+             </p>
+
+             <p className="mt-5 text-sm font-medium">
+             Buka tool →
+             </p>
+             </Link>
+
+             <Link
+               href="/id/tools/generator-judul-produk"
+               className="border rounded-2xl p-6 hover:shadow-md transition"
+              >
+             <h3 className="text-xl font-semibold">
+               Generator Judul Produk
+               </h3>
+
+               <p className="mt-3 text-gray-600 leading-7">
+               Buat judul produk yang lebih rapi dan menarik untuk Shopee, TikTok Shop,
+               Tokopedia, dan Lazada.
+                  </p>
+
+             <p className="mt-5 text-sm font-medium">
+             Buka tool →
+             </p>
+         </Link>
           </div>
         </section>
 
