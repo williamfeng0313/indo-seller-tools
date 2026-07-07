@@ -35,10 +35,10 @@ export default function Home() {
 
   <div className="mt-10 flex justify-center gap-4 flex-wrap">
     <Link
-      href="/tools/tiktok-profit-calculator"
+      href="/id/tools/kalkulator-profit-tiktok-shop"
       className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
     >
-      Try Free Tools
+      Hitung Profit TikTok
     </Link>
 
     <Link
