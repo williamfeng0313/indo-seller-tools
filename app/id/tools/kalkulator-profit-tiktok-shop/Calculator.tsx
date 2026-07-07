@@ -217,6 +217,51 @@ export default function Calculator() {
           </Link>
         </div>
       </section>
+      
+      <section className="max-w-4xl mx-auto mt-24">
+  <h2 className="text-3xl font-bold">Tools Terkait</h2>
+
+  <div className="grid md:grid-cols-3 gap-6 mt-10">
+    <a
+      href="/id/tools/kalkulator-komisi-tiktok"
+      className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-2xl font-semibold">
+        Kalkulator Komisi TikTok
+      </h3>
+
+      <p className="mt-4 text-gray-600">
+        Hitung komisi TikTok Shop dan estimasi pendapatan setelah komisi.
+      </p>
+    </a>
+
+    <a
+      href="/id/tools/generator-judul-produk"
+      className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-2xl font-semibold">
+        Generator Judul Produk
+      </h3>
+
+      <p className="mt-4 text-gray-600">
+        Buat ide judul produk untuk Shopee, TikTok Shop, Tokopedia, dan Lazada.
+      </p>
+    </a>
+
+    <a
+      href="/id/tools/kalkulator-biaya-shopee"
+      className="border rounded-2xl p-6 hover:shadow-lg transition"
+    >
+      <h3 className="text-2xl font-semibold">
+        Kalkulator Biaya Shopee
+      </h3>
+
+      <p className="mt-4 text-gray-600">
+        Hitung biaya Shopee, profit bersih, dan margin jualan.
+      </p>
+    </a>
+  </div>
+ </section>
     </main>
   );
 }
