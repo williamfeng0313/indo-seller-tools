@@ -1,9 +1,9 @@
 import Calculator from "./Calculator";
 
 export const metadata = {
-  title: "Kalkulator Biaya Shopee Indonesia - Hitung Profit Jualan",
+  title: "Kalkulator Biaya Admin Shopee Indonesia - Hitung Profit Seller",
   description:
-    "Kalkulator biaya Shopee gratis untuk seller Indonesia. Hitung fee Shopee, modal produk, ongkir, biaya packing, profit, dan margin jualan online.",
+    "Kalkulator biaya admin Shopee untuk seller Indonesia. Hitung fee Shopee, modal produk, ongkir, biaya packing, profit bersih, dan margin jualan online.",
   alternates: {
     canonical: "https://indosellertools.com/id/tools/kalkulator-biaya-shopee",
     languages: {
