@@ -30,6 +30,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
 
+
+    {
+      url: `${baseUrl}/id/blog/biaya-tiktok-shop-seller`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+
+
+
     
     {
       url: `${baseUrl}/id/tools/generator-judul-produk`,

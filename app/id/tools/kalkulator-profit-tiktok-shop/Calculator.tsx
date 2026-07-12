@@ -214,7 +214,30 @@ export default function Calculator() {
           </p>
         </div>
       </section>
+      
 
+      <section className="max-w-4xl mx-auto mt-24 rounded-2xl bg-gray-50 p-8">
+        <p className="text-sm font-medium text-gray-500">
+          Panduan Terkait
+        </p>
+
+       <h2 className="mt-2 text-2xl font-bold">
+         Biaya TikTok Shop Seller
+       </h2>
+
+       <p className="mt-4 text-gray-700 leading-8">
+         Pelajari cara menghitung TikTok Shop fees, komisi affiliate, biaya iklan,
+         profit bersih, dan margin sebelum menentukan harga jual.
+       </p>
+
+       <Link
+         href="/id/blog/biaya-tiktok-shop-seller"
+         className="mt-5 inline-block font-medium underline"
+       >
+         Baca panduan lengkap →
+       </Link>
+       </section>
+       
       <section className="max-w-4xl mx-auto mt-24">
         <h2 className="text-3xl font-bold">Pertanyaan Umum</h2>
 
