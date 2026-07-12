@@ -1,9 +1,9 @@
 import Calculator from "./Calculator";
 
 export const metadata = {
-  title: "Kalkulator Profit TikTok Shop Indonesia - Hitung Margin Jualan",
+  title: "Kalkulator Biaya TikTok Shop Indonesia - Hitung Fee, Komisi & Profit",
   description:
-    "Kalkulator profit TikTok Shop gratis untuk seller Indonesia. Hitung modal produk, ongkir, biaya iklan, komisi affiliate, profit bersih, dan margin jualan.",
+    "Kalkulator biaya TikTok Shop untuk seller Indonesia. Hitung TikTok Shop fees, fee platform, komisi affiliate, biaya iklan, modal produk, profit bersih, dan margin jualan.",
   alternates: {
     canonical: "https://indosellertools.com/id/tools/kalkulator-profit-tiktok-shop",
     languages: {
