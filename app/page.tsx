@@ -3,6 +3,19 @@ import Navbar from "@/components/Navbar";
 import ToolCard from "@/components/ToolCard";
 
 import Link from "next/link";
+
+export const metadata = {
+  title: "Indo Seller Tools - Free Tools for Shopee & TikTok Shop Sellers",
+  description:
+    "Free tools for Indonesian online sellers. Calculate Shopee fees, TikTok Shop fees, affiliate commission, profit margin, ROI, and generate product titles.",
+  alternates: {
+    canonical: "https://indosellertools.com",
+    languages: {
+      en: "https://indosellertools.com",
+      id: "https://indosellertools.com/id",
+    },
+  },
+};
 export default function Home() {
   return (
    <>
@@ -25,217 +38,157 @@ export default function Home() {
 
     {/* Hero Section */}
     <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-     <h1 className="text-5xl font-bold leading-tight">
-     Free AI Tools for Indonesian Sellers
+    <h1 className="text-5xl font-bold leading-tight">
+     Free Seller Tools for Shopee and TikTok Shop Sellers
     </h1>
 
-  <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
-    Boost your TikTok Shop & Shopee sales with free AI-powered tools.
-  </p>
+    <p className="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
+     Calculate marketplace fees, affiliate commissions, profit margins, ROI,
+     and product title ideas for Indonesian online sellers.
+    </p>
 
-  <div className="mt-10 flex justify-center gap-4 flex-wrap">
-    <Link
-      href="/id/tools/kalkulator-profit-tiktok-shop"
-      className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
-    >
-      Hitung Profit TikTok
-    </Link>
+    <div className="mt-10 flex justify-center gap-4 flex-wrap">
+  <Link
+    href="/id/tools/kalkulator-profit-tiktok-shop"
+    className="bg-black text-white px-8 py-4 rounded-2xl inline-block"
+  >
+    Hitung Biaya TikTok Shop
+  </Link>
 
-    <Link
-      href="/id"
-      className="border border-gray-300 text-black px-8 py-4 rounded-2xl inline-block hover:bg-gray-50"
-    >
-      Bahasa Indonesia
-    </Link>
+  <Link
+    href="/id/tools/kalkulator-biaya-shopee"
+    className="border border-gray-300 text-black px-8 py-4 rounded-2xl inline-block hover:bg-gray-50"
+  >
+    Hitung Biaya Shopee
+  </Link>
+
+  <Link
+    href="/id"
+    className="border border-gray-300 text-black px-8 py-4 rounded-2xl inline-block hover:bg-gray-50"
+  >
+    Bahasa Indonesia
+  </Link>
+</div>
+
+<div className="mt-8 flex justify-center gap-6 flex-wrap text-center">
+  <Link
+    href="/tools"
+    className="text-lg underline"
+  >
+    Browse All Tools →
+  </Link>
+
+  <Link
+    href="/categories/ecommerce-tools"
+    className="text-lg underline"
+  >
+    Browse Ecommerce Tools →
+  </Link>
+
+  <Link
+    href="/categories/calculators"
+    className="text-lg underline"
+  >
+    Browse Calculators →
+  </Link>
+</div>
+
+</section>
+   {/* Tools Section */}
+<section id="tools" className="max-w-6xl mx-auto px-6 py-12">
+  <div className="mb-10">
+    <h2 className="text-3xl font-bold">
+      Popular Seller Tools
+    </h2>
+
+    <p className="mt-3 text-gray-600 max-w-3xl">
+      Start with the most useful calculators for TikTok Shop, Shopee,
+      Lazada, Tokopedia, marketplace fees, commissions, profit margins,
+      and product titles.
+    </p>
   </div>
 
-  <div className="mt-8 flex justify-center gap-6 flex-wrap">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <ToolCard
+      title="TikTok Shop Fee Calculator"
+      description="Calculate TikTok Shop seller fees and net profit instantly."
+      href="/tools/tiktok-shop-fee-calculator"
+    />
+
+    <ToolCard
+      title="TikTok Profit Calculator"
+      description="Calculate your real TikTok Shop profit margin."
+      href="/tools/tiktok-profit-calculator"
+    />
+
+    <ToolCard
+      title="TikTok Commission Calculator"
+      description="Calculate TikTok Shop commission fees and seller profit instantly."
+      href="/tools/tiktok-commission-calculator"
+    />
+
+    <ToolCard
+      title="Shopee Fee Calculator"
+      description="Calculate Shopee fees, seller costs, profit, and margin."
+      href="/tools/shopee-fee-calculator"
+    />
+
+    <ToolCard
+      title="Shopee Commission Calculator"
+      description="Calculate Shopee commission fees for Indonesian sellers."
+      href="/tools/shopee-commission-calculator"
+    />
+
+    <ToolCard
+      title="Shopee Affiliate Calculator"
+      description="Calculate Shopee affiliate commissions and seller profit."
+      href="/tools/shopee-affiliate-calculator"
+    />
+
+    <ToolCard
+      title="Lazada Fee Calculator"
+      description="Calculate Lazada seller fees, costs, profit, and margin."
+      href="/tools/lazada-fee-calculator"
+    />
+
+    <ToolCard
+      title="Tokopedia Fee Calculator"
+      description="Calculate Tokopedia seller fees and marketplace costs."
+      href="/tools/tokopedia-fee-calculator"
+    />
+
+    <ToolCard
+      title="Product Title Generator"
+      description="Generate better product title ideas for Shopee, TikTok Shop, Tokopedia, and Lazada."
+      href="/tools/product-title-generator"
+    />
+  </div>
+
+  <div className="mt-10 text-center">
+  <Link
+    href="/categories/ecommerce-tools"
+    className="inline-block rounded-2xl border px-8 py-4 font-medium hover:bg-gray-50"
+  >
+    View All 25 Seller Tools →
+  </Link>
+</div>
+
+  <div className="mt-10 flex gap-6 flex-wrap">
     <Link
       href="/categories/ecommerce-tools"
       className="text-lg underline"
     >
-      Browse All Ecommerce Tools →
+      Browse all ecommerce tools →
     </Link>
 
     <Link
       href="/categories/calculators"
       className="text-lg underline"
     >
-      Browse All Calculators →
+      Browse all calculators →
     </Link>
   </div>
 </section>
-      {/* Tools Section */}
-      <section
-      id="tools" 
-      className="
-      max-w-6xl
-      mx-auto
-      px-6
-      py-12
-      grid
-      grid-cols-1
-      md:grid-cols-2
-      lg:grid-cols-3
-      gap-6
-      ">
-        
-      
-      <ToolCard
-        title="TikTok Profit Calculator"
-        description="Calculate your real TikTok Shop profit margin."
-        href="/tools/tiktok-profit-calculator"
-      />
-
-      <ToolCard
-        title="Shopee Title Generator"
-        description="Generate SEO-friendly product titles with AI."
-        href="/tools/product-title-generator"
-      />
-
-
-      <ToolCard
-        title="WhatsApp Reply Generator"
-        description="Reply to customers using AI-generated responses."
-        href="/tools/whatsapp-reply-generator"
-      />
-
-
-      <ToolCard
-        title="Shopee Fee Calculator"
-        description="Calculate Shopee commissions and seller profit instantly."
-        href="/tools/shopee-fee-calculator"
-      />
-
-
-      <ToolCard
-        title="Shopee ROI Calculator"
-        description="Calculate Shopee ROI and profitability instantly."
-        href="/tools/shopee-roi-calculator"
-      />
-
-      
-       <ToolCard
-        title="Shopee Affiliate Calculator"
-        description="Calculate Shopee affiliate commissions instantly."
-        href="/tools/shopee-affiliate-calculator"
-      />
-      
-    
-       <ToolCard
-        title="Tokopedia Fee Calculator"
-        description="Calculate Tokopedia seller fees instantly."
-        href="/tools/tokopedia-fee-calculator"
-      />
-
-
-        <ToolCard
-          title="Lazada Fee Calculator"
-          description="Calculate Lazada seller fees instantly."
-          href="/tools/lazada-fee-calculator"
-        />
-    
-        <ToolCard
-          title="TikTok Affiliate Calculator"
-          description="Calculate TikTok affiliate commissions instantly."
-          href="/tools/tiktok-affiliate-calculator"
-        />
-    
-        <ToolCard
-          title="Shopee Ads ROI Calculator"
-          description="Calculate Shopee advertising ROI instantly."
-          href="/tools/shopee-ads-roi-calculator"
-        />
-
-        <ToolCard
-          title="Shopee COD Calculator"
-          description="Calculate Shopee COD fees and seller profit instantly."
-          href="/tools/shopee-cod-calculator"
-        />
-
-
-        <ToolCard
-          title="Shopee live ROI Calculator"
-          description="Calculate Shopee live ROI fees and seller profit instantly."
-          href="/tools/shopee-live-roi-calculator"
-        />
-
-        <ToolCard
-          title="Shopee Live Profit Calculator"
-          description="Calculate Shopee Live selling profit and livestream costs."
-          href="/tools/shopee-live-profit-calculator"
-        />
-
-        <ToolCard
-          title="Shopee Live Margin Calculator"
-          description="Calculate Shopee Live seller margins instantly."
-          href="/tools/shopee-live-margin-calculator"
-        />
-        
-        <ToolCard
-          title="Shopee Discount Calculator"
-          description="Calculate Shopee discounts and seller margins instantly."
-          href="/tools/shopee-discount-calculator"
-        />
-        
-        <ToolCard
-          title="Shopee Free Shipping Calculator"
-          description="Calculate Shopee free shipping costs and seller margins."
-          href="/tools/shopee-free-shipping-calculator"
-        />
-
-        
-         <ToolCard
-           title="Shopee Commission Calculator Indonesia"
-           description="Free Shopee commission calculator for Indonesian sellers."
-           href="/tools/shopee-commission-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Live Profit Calculator Indonesia"
-           description="Free TikTok live profit calculator for Indonesian sellers."
-           href="/tools/tiktok-live-profit-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Commission Calculator Indonesia"
-           description="Calculate TikTok Shop commission fees and seller profit instantly."
-           href="/tools/tiktok-commission-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Live ROI Calculator"
-           description="Calculate TikTok Live ROI and profitability instantly."
-           href="/tools/tiktok-live-roi-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Shop Fee Calculator"
-           description="Calculate TikTok Shop seller fees and net profit instantly."
-           href="/tools/tiktok-shop-fee-calculator"   
-        />
-
-        <ToolCard
-           title="Tiktok margin Calculator Indonesia"
-           description="Calculate Tiktok Live seller margins instantly"
-           href="/tools/tiktok-margin-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Shop Profit Calculator Indonesia"
-           description="Free TikTok Shop Profit Calculator for Indonesian sellers."
-           href="/tools/tiktok-shop-profit-calculator"
-        />
-
-        <ToolCard
-           title="TikTok Shop Margin Calculator Indonesia"
-           description="Free TikTok Shop Margin Calculator for Indonesian sellers."
-           href="/tools/tiktok-shop-margin-calculator"
-        />
-
-
-
-      </section>
 
       {/* SEO Content */}
       <section className="max-w-4xl mx-auto px-6 py-20">
@@ -431,6 +384,26 @@ export default function Home() {
      </div>
 
     </section>
+
+    <footer className="mt-24 border-t">
+    <div className="max-w-6xl mx-auto px-6 py-8 text-sm text-gray-500 flex gap-4 flex-wrap justify-between">
+    <div>
+      © 2026 Indo Seller Tools
+    </div>
+
+    <div className="flex gap-4 flex-wrap">
+      <Link href="/about" className="hover:text-black">
+        About
+      </Link>
+      <Link href="/contact" className="hover:text-black">
+        Contact
+      </Link>
+      <Link href="/privacy-policy" className="hover:text-black">
+        Privacy Policy
+      </Link>
+    </div>
+  </div>
+  </footer>
     </main>
     </>
   );
