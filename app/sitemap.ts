@@ -135,6 +135,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
+      url: `${baseUrl}/blog/how-much-does-tiktok-shop-charge-sellers`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+
+    {
       url: `${baseUrl}/blog/shopee-vs-tiktok-shop`,
       lastModified: new Date(),
     },
