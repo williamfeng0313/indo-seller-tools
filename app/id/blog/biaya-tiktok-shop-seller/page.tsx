@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export const metadata = {
   title:
-    "Biaya TikTok Shop Seller: Cara Menghitung Fee, Komisi, dan Profit",
-  description:
-    "Panduan biaya TikTok Shop untuk seller Indonesia. Pelajari cara menghitung TikTok Shop fees, komisi affiliate, biaya iklan, profit bersih, dan margin jualan.",
+    "Cara Menghitung Biaya TikTok Shop Seller - Fee, Komisi & Profit",
+    description:
+    "Cara menghitung biaya TikTok Shop untuk seller Indonesia. Pelajari fee TikTok Shop, komisi affiliate, biaya iklan, profit bersih, dan margin jualan.",
   alternates: {
     canonical: "https://indosellertools.com/id/blog/biaya-tiktok-shop-seller",
   },
@@ -24,7 +24,7 @@ export default function BiayaTikTokShopSellerPage() {
           </p>
 
           <h1 className="mt-4 text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-            Biaya TikTok Shop Seller: Cara Menghitung Fee, Komisi, dan Profit
+          Cara Menghitung Biaya TikTok Shop Seller: Fee, Komisi, dan Profit
           </h1>
 
           <p className="mt-6 text-lg text-gray-600 leading-8">
@@ -95,6 +95,41 @@ export default function BiayaTikTokShopSellerPage() {
             laku. Pertanyaan yang lebih penting adalah apakah produk masih
             menghasilkan profit setelah semua biaya dihitung.
           </p>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="text-3xl font-bold">
+            2. Cara Menghitung Biaya TikTok Shop
+          </h2>
+
+          <p className="mt-6 text-gray-700 leading-8">
+            Cara menghitung biaya TikTok Shop adalah dengan menjumlahkan semua biaya
+            yang muncul dalam proses penjualan, lalu mengurangkannya dari harga jual.
+            Seller perlu menghitung modal produk, ongkir, biaya packing, fee TikTok
+            Shop, biaya iklan, komisi affiliate, voucher, diskon, dan biaya operasional
+            lain.
+          </p>
+
+          <p className="mt-4 text-gray-700 leading-8">
+            Setelah semua biaya dihitung, seller bisa mengetahui profit bersih dan
+            margin jualan. Perhitungan ini penting sebelum menentukan harga jual,
+            menjalankan iklan, memakai affiliate, atau mengikuti campaign TikTok Shop.
+          </p>
+
+          <div className="mt-8 rounded-2xl bg-gray-50 p-6">
+            <p className="font-semibold leading-8">
+              Total Biaya = Modal Produk + Ongkir + Biaya Packing + Fee TikTok Shop +
+              Biaya Iklan + Komisi Affiliate + Voucher / Diskon
+            </p>
+
+            <p className="mt-3 font-semibold leading-8">
+              Profit Bersih = Harga Jual - Total Biaya
+            </p>
+
+            <p className="mt-3 font-semibold leading-8">
+              Margin Profit = Profit Bersih / Harga Jual
+            </p>
+          </div>
         </section>
 
         <section className="mt-16">
@@ -305,6 +340,19 @@ export default function BiayaTikTokShopSellerPage() {
                 menjual produk di TikTok Shop, seperti fee platform, komisi
                 affiliate, biaya iklan, voucher, diskon, ongkir, dan biaya
                 operasional lain.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold">
+                Bagaimana cara menghitung biaya TikTok Shop?
+              </h3>
+
+              <p className="mt-3 text-gray-600 leading-7">
+                Cara menghitung biaya TikTok Shop adalah menjumlahkan semua biaya seperti
+                modal produk, ongkir, biaya packing, fee platform, biaya iklan, komisi
+                affiliate, voucher, dan diskon. Setelah itu, kurangi total biaya dari harga
+                jual untuk mengetahui profit bersih.
               </p>
             </div>
 
